@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightBg">#FCFCFC</color>
+    <color name="darkCard">#444A7D</color>
+    <color name="accent">#666FCC</color>
+    <color name="lightCard">#747CD0</color>
+    <color name="darkBg">#2D323D</color>
+    <color name="boldTextLightMode">#4F565E</color>
+    <color name="regularTextLightMode">#888F96</color>
+    <color name="moreDarkRegularTextLightMode">#7B8187</color>
+    <color name="boldTextDarkMode">#FCFCFC</color>
+    <color name="regularTextDarkMode">#F1F4F5</color>
+    <color name="moreLightRegularTextDarkMode">#F2F5F6</color>
+    <color name="lightDotsRattingEmpty">#E0E2F5</color>
+    <color name="dotsRattingHalf">#A5A9D8</color>
+    <color name="darkDotsRattingEmpty">#383E5A</color>
+    <color name="searchbarLight">#E0E2F5</color>
+    <color name="searchbarDark">#3F444E</color>
+
+    <attr format="color" name="card"/>
+    <attr format="color" name="bg"/>
+    <attr format="color" name="boldText"/>
+    <attr format="color" name="regularText"/>
+    <attr format="color" name="moreFocusedText"/>
+    <attr name="dotsColor" format="color"/>
+    <attr format="color" name="searchbar"/>
+
+</resources>

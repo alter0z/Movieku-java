@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="190dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:paddingStart="136dp"
+        android:paddingEnd="18dp"
+        android:paddingTop="18dp"
+        android:elevation="2dp"
+        android:background="@drawable/card_layout_bg">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:fontFamily="@font/product_sans_bold"
+            android:textColor="@color/boldTextDarkMode"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tagline"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/product_sans_regular"
+            android:textSize="14sp"
+            android:textColor="@color/moreLightRegularTextDarkMode"/>
+
+        <TextView
+            android:id="@+id/releaseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tagline"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/product_sans_regular"
+            android:textColor="@color/regularTextDarkMode"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/lang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/tagline"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/product_sans_regular"
+            android:textColor="@color/regularTextDarkMode"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/dots"
+            android:layout_marginTop="69dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:id="@+id/rattingText"
+            android:layout_below="@+id/releaseDate"
+            android:layout_toEndOf="@+id/dots"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/product_sans_bold"
+            android:textSize="14sp"
+            android:textColor="@color/boldTextDarkMode"/>
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/posterViewModel"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="-170dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/poster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/todo"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

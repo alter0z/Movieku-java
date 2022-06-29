@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Movieku</string>
+    <string name="todo">TODO</string>
+    <string name="movieku">Movieku</string>
+    <string name="logan">Logan</string>
+    <string name="action_adventure">Action Adventure</string>
+    <string name="overview">Overview</string>
+    <string name="released_on_20_juny_2017">Released on 20 Juny 2017</string>
+    <string name="_8_5">8.5</string>
+</resources>

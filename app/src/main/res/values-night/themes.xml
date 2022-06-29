@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Movieku" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/accent</item>
+        <item name="colorOnPrimary">@color/accent</item>
+        <item name="card">@color/darkCard</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="boldText">@color/boldTextDarkMode</item>
+        <item name="regularText">@color/regularTextDarkMode</item>
+        <item name="moreFocusedText">@color/moreLightRegularTextDarkMode</item>
+        <item name="bg">@color/darkBg</item>
+        <item name="dotsColor">@color/darkDotsRattingEmpty</item>
+        <item name="searchbar">@color/darkCard</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/accent</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/darkBg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
