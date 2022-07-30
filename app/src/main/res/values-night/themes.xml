@@ -2,23 +2,21 @@
     <!-- Base application theme. -->
     <style name="Theme.Movieku" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/accent</item>
-        <item name="colorPrimaryVariant">@color/accent</item>
-        <item name="colorOnPrimary">@color/accent</item>
-        <item name="card">@color/darkCard</item>
-        <item name="colorAccent">@color/accent</item>
-        <item name="boldText">@color/boldTextDarkMode</item>
-        <item name="regularText">@color/regularTextDarkMode</item>
-        <item name="moreFocusedText">@color/moreLightRegularTextDarkMode</item>
-        <item name="bg">@color/darkBg</item>
-        <item name="dotsColor">@color/darkDotsRattingEmpty</item>
-        <item name="searchbar">@color/darkCard</item>
+        <item name="colorPrimary">@color/material_blue</item>
+        <item name="colorPrimaryVariant">@color/material_blue</item>
+        <item name="colorOnPrimary">@color/light_dark</item>
+        <item name="bg">@color/dark</item>
+        <item name="boldText">@color/white_bold_text</item>
+        <item name="regularText">@color/white_regular_text</item>
+        <item name="appbar">@color/dark</item>
+        <item name="card">@color/light_dark</item>
+        <item name="appbarAttribute">@color/material_blue</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/accent</item>
-        <item name="colorSecondaryVariant">@color/accent</item>
-        <item name="colorOnSecondary">@color/accent</item>
+        <item name="colorSecondary">@color/material_blue</item>
+        <item name="colorSecondaryVariant">@color/material_blue</item>
+        <item name="colorOnSecondary">@color/material_blue</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">@color/darkBg</item>
+        <item name="android:statusBarColor" >@color/dark</item>
         <item name="android:windowLightStatusBar">false</item>
         <!-- Customize your theme here. -->
     </style>

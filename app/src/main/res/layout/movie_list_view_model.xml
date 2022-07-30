@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:fontFamily="@font/product_sans_bold"
-            android:textColor="@color/boldTextDarkMode"
+            android:textColor="?attr/boldText"
             android:textSize="18sp" />
 
         <TextView
@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/product_sans_regular"
             android:textSize="14sp"
-            android:textColor="@color/moreLightRegularTextDarkMode"/>
+            android:textColor="?attr/boldText"/>
 
         <TextView
             android:id="@+id/releaseDate"
@@ -42,7 +42,7 @@
             android:layout_below="@+id/tagline"
             android:layout_marginTop="6dp"
             android:fontFamily="@font/product_sans_regular"
-            android:textColor="@color/regularTextDarkMode"
+            android:textColor="?attr/regularText"
             android:textSize="14sp" />
 
         <TextView
@@ -53,7 +53,7 @@
             android:layout_below="@+id/tagline"
             android:layout_marginTop="6dp"
             android:fontFamily="@font/product_sans_regular"
-            android:textColor="@color/regularTextDarkMode"
+            android:textColor="?attr/regularText"
             android:textSize="14sp" />
 
         <LinearLayout
@@ -72,7 +72,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/product_sans_bold"
             android:textSize="14sp"
-            android:textColor="@color/boldTextDarkMode"/>
+            android:textColor="?attr/boldText"/>
 
     </RelativeLayout>
 

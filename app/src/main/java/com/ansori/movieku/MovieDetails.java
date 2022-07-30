@@ -57,87 +57,87 @@ public class MovieDetails extends AppCompatActivity {
             for (int j = 0; j < dots.length; j++) {
                 dots[j] = new TextView(this);
                 dots[j].setText(Html.fromHtml("&#8226;"));
-                dots[j].setTextColor(this.getResources().getColor(R.color.lightDotsRattingEmpty));
+                dots[j].setTextColor(this.getResources().getColor(R.color.dots_bg));
                 dots[j].setTextSize(50);
                 dotsLayout.addView(dots[j]);
             }
 
             for (float j = 1.0f; j <= 1.9f; j += 0.1f) {
                 if (ratings == j) {
-                    dots[0].setTextColor(this.getResources().getColor(R.color.dotsRattingHalf));
+                    dots[0].setTextColor(this.getResources().getColor(R.color.dots_half));
                 }
             }
 
             for (float j = 2.0f; j <= 2.9f; j += 0.1f) {
                 if (ratings == j) {
-                    dots[0].setTextColor(this.getResources().getColor(R.color.accent));
+                    dots[0].setTextColor(this.getResources().getColor(R.color.material_blue));
                 }
             }
 
             for (float j = 3.0f; j <= 3.9f; j += 0.1f) {
                 if (ratings == j) {
-                    dots[0].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[1].setTextColor(this.getResources().getColor(R.color.dotsRattingHalf));
+                    dots[0].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[1].setTextColor(this.getResources().getColor(R.color.dots_half));
                 }
             }
 
             for (float j = 4.0f; j <= 4.9f; j += 0.1f) {
                 if (ratings == j) {
-                    dots[0].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[1].setTextColor(this.getResources().getColor(R.color.accent));
+                    dots[0].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[1].setTextColor(this.getResources().getColor(R.color.material_blue));
                 }
             }
 
             for (float j = 5.0f; j <= 5.9f; j += 0.1f) {
                 if (ratings == j) {
-                    dots[0].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[1].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[2].setTextColor(this.getResources().getColor(R.color.dotsRattingHalf));
+                    dots[0].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[1].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[2].setTextColor(this.getResources().getColor(R.color.dots_half));
                 }
             }
 
             for (float j = 6.0f; j <= 6.9f; j += 0.1f) {
                 if (ratings == j) {
-                    dots[0].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[1].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[2].setTextColor(this.getResources().getColor(R.color.accent));
+                    dots[0].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[1].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[2].setTextColor(this.getResources().getColor(R.color.material_blue));
                 }
             }
 
             for (float j = 7.0f; j <= 7.9f; j += 0.1f) {
                 if (ratings == j) {
-                    dots[0].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[1].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[2].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[3].setTextColor(this.getResources().getColor(R.color.dotsRattingHalf));
+                    dots[0].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[1].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[2].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[3].setTextColor(this.getResources().getColor(R.color.dots_half));
                 }
             }
 
             for (float j = 8.0f; j <= 8.9f; j += 0.1f) {
                 if (ratings == j) {
-                    dots[0].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[1].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[2].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[3].setTextColor(this.getResources().getColor(R.color.accent));
+                    dots[0].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[1].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[2].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[3].setTextColor(this.getResources().getColor(R.color.material_blue));
                 }
             }
 
             for (float j = 9.0f; j <= 9.9f; j += 0.1f) {
                 if (ratings == j) {
-                    dots[0].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[1].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[2].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[3].setTextColor(this.getResources().getColor(R.color.accent));
-                    dots[4].setTextColor(this.getResources().getColor(R.color.dotsRattingHalf));
+                    dots[0].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[1].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[2].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[3].setTextColor(this.getResources().getColor(R.color.material_blue));
+                    dots[4].setTextColor(this.getResources().getColor(R.color.dots_half));
                 }
             }
 
             if (ratings == 10) {
-                dots[0].setTextColor(this.getResources().getColor(R.color.accent));
-                dots[1].setTextColor(this.getResources().getColor(R.color.accent));
-                dots[2].setTextColor(this.getResources().getColor(R.color.accent));
-                dots[3].setTextColor(this.getResources().getColor(R.color.accent));
-                dots[4].setTextColor(this.getResources().getColor(R.color.accent));
+                dots[0].setTextColor(this.getResources().getColor(R.color.material_blue));
+                dots[1].setTextColor(this.getResources().getColor(R.color.material_blue));
+                dots[2].setTextColor(this.getResources().getColor(R.color.material_blue));
+                dots[3].setTextColor(this.getResources().getColor(R.color.material_blue));
+                dots[4].setTextColor(this.getResources().getColor(R.color.material_blue));
             }
         }
     }

@@ -26,7 +26,7 @@
             android:fontFamily="@font/product_sans_bold"
             android:textSize="24sp"
             android:text="@string/movieku"
-            android:textColor="@color/accent"/>
+            android:textColor="@color/material_blue"/>
         
         <androidx.appcompat.widget.SearchView
             android:layout_width="match_parent"

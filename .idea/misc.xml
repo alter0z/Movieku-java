@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Ansori San/AndroidStudioProjects/Movieku/app/src/main/res/drawable-v24/card_layout_bg.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/Ansori San/AndroidStudioProjects/Movieku/app/src/main/res/drawable/ic_logo.xml" value="0.1435" />
         <entry key="..\:/Users/Ansori San/AndroidStudioProjects/Movieku/app/src/main/res/drawable/rounded_appbar.xml" value="0.3536458333333333" />
         <entry key="..\:/Users/Ansori San/AndroidStudioProjects/Movieku/app/src/main/res/layout/activity_movie_details.xml" value="0.33" />
         <entry key="..\:/Users/Ansori San/AndroidStudioProjects/Movieku/app/src/main/res/layout/activity_movie_list.xml" value="0.3375" />
@@ -21,10 +22,21 @@
         <entry key="..\:/Users/Shou/AndroidStudioProjects/Movieku/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/Users/Shou/AndroidStudioProjects/Movieku/app/src/main/res/layout/movie_list_item.xml" value="0.3385416666666667" />
         <entry key="..\:/Users/Shou/AndroidStudioProjects/Movieku/app/src/main/res/layout/movie_list_view_model.xml" value="0.33" />
+        <entry key="app/src/main/res/drawable-v24/card_layout_bg.xml" value="0.24" />
+        <entry key="app/src/main/res/drawable-v24/ic_search_icon.xml" value="0.24" />
+        <entry key="app/src/main/res/drawable-v24/search_input_field_bg.xml" value="0.24" />
+        <entry key="app/src/main/res/drawable/ic_logo.xml" value="0.138" />
+        <entry key="app/src/main/res/drawable/poster_view_model.xml" value="0.24" />
+        <entry key="app/src/main/res/drawable/rate_dot.xml" value="0.24" />
+        <entry key="app/src/main/res/drawable/rounded_appbar.xml" value="0.24" />
+        <entry key="app/src/main/res/layout/activity_movie_details.xml" value="0.25317028985507245" />
+        <entry key="app/src/main/res/layout/activity_movie_list.xml" value="0.25317028985507245" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.25317028985507245" />
+        <entry key="app/src/main/res/layout/movie_list_view_model.xml" value="0.25317028985507245" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
